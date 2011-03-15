@@ -12,3 +12,6 @@ class CreateUsers < ActiveRecord::Migration
     drop_table :users
   end
 end
+
+
+#20110314232755_create_users.rb

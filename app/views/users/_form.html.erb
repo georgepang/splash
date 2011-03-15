@@ -11,6 +11,7 @@
     </div>
   <% end %>
 
+<!-- the code below renders the name and email fields on the homepage -->
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
@@ -20,6 +21,6 @@
     <%= f.text_field :email %>
   </div>
   <div class="actions">
-    <input id="user_submit" name="commit" type="submit" value="Go!">
+    <%= f.submit :value => "Go!"%>
   </div>
 <% end %>
